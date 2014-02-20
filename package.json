@@ -1,0 +1,9 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-exec": "*"
+  }
+}

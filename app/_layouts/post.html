@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article vocab="http://schema.org/" typeof="BlogPosting">
+  <h1 property="name">{{ page.title }}</h1>
+  <time property="dateCreated" pubdate>{{ page.date | date_to_string }}</time>
+
+  <div property="articleBody">
+    {{ content }}
+  </div>
+
+</article>

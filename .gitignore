@@ -1,0 +1,20 @@
+# Bundler config.
+/.bundle
+
+# Binaries
+bin/
+
+# Drafts
+app/_drafts/
+
+# Built site
+dist/
+
+# Node modules
+node_modules/
+
+# rbenv
+.rbenv-vars
+
+# Vendor
+/vendor
