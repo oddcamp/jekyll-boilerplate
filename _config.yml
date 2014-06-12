@@ -16,6 +16,6 @@ assets:
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
-    - ../vendor/assets
+    - _assets/vendor
   js_compressor:  uglifier
   css_compressor: sass
