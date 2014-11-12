@@ -5,6 +5,10 @@ destination: ./dist
 # Setup
 name: TITLE
 permalink: /blog/:year/:month/:title/
+exclude:
+ - autoprefixer.yml
+
+# Dependecies
 gems:
   - sass
   - compass

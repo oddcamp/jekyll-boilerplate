@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    autoprefixer-rails (3.1.2.20141016)
+      execjs
     blankslate (2.1.2.4)
     breakpoint (2.5.0)
       sass (~> 3.3)
@@ -110,6 +112,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   breakpoint
   compass
   jekyll
