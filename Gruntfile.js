@@ -6,7 +6,7 @@ grunt.initConfig({
       cmd: 'bundle exec jekyll b'
     },
     serve: {
-      cmd: 'bundle exec jekyll s'
+      cmd: 'bundle exec jekyll s --config _config.yml,_config-dev.yml'
     },
     deploy: {
       cmd: 'fab deploy'
