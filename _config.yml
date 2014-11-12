@@ -5,9 +5,14 @@ destination: ./dist
 # Setup
 name: TITLE
 permalink: /blog/:year/:month/:title/
-gems: [sass, compass, breakpoint, uglifier, jekyll-assets, jekyll-assets/compass, jekyll-sitemap]
-markdown: redcarpet
-pygments: true
+gems:
+  - sass
+  - compass
+  - breakpoint
+  - uglifier
+  - jekyll-assets
+  - jekyll-assets/compass
+  - jekyll-sitemap
 
 # Jekyll Assets configuration
 # https://github.com/ixti/jekyll-assets
