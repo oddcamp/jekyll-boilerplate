@@ -5,7 +5,7 @@ destination: ./dist
 # Setup
 name: TITLE
 permalink: /blog/:year/:month/:title/
-gems: [sass, compass, breakpoint, uglifier, jekyll-assets, jekyll-assets/compass]
+gems: [sass, compass, breakpoint, uglifier, jekyll-assets, jekyll-assets/compass, jekyll-sitemap]
 markdown: redcarpet
 pygments: true
 
