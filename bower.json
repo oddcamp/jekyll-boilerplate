@@ -2,7 +2,7 @@
   "name": "jekyll-boilerplate",
   "version": "0.0.0",
   "dependencies": {
-    "modernizr": "~2.7.1",
+    "modernizr": "~2.8.3",
     "normalize-scss": "~3.0.0"
   }
 }
