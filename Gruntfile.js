@@ -9,16 +9,15 @@ grunt.initConfig({
       cmd: 'bundle exec jekyll s --config _config.yml,_config-dev.yml'
     },
     deploy: {
-      cmd: 'fab deploy'
+      cmd: "rsync -avz --delete --exclude '.git*' --exclude '.DS_Store' --exclude '.sass-cache*' dist/ root@server:/var/www/site"
     }
   }
 });
 
 grunt.loadNpmTasks('grunt-exec');
 
-grunt.registerTask('default', [ 'exec:build' ]);
+grunt.registerTask('default', [ 'exec:serve' ]);
 grunt.registerTask('build', [ 'exec:build' ]);
-grunt.registerTask('serve', [ 'exec:serve' ]);
 grunt.registerTask('deploy', [ 'exec:build', 'exec:deploy' ]);
 
 };

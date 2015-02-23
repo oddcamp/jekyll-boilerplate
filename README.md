@@ -1,16 +1,16 @@
 This is the boilerplate for [our](http://www.kollegorna.se) Jekyll projects.
 
-### Setup locally
+### Local setup
 
-1. Clone repository
-2. Make sure you have [Bundler](https://rubygems.org/gems/bundler) and [Node.js](http://nodejs.org) installed.
-2. $ bundle install
-3. $ npm install
-4. $ bower install
+1. Install [Bundler](https://rubygems.org/gems/bundler) and [Node.js](http://nodejs.org).
+2. Clone repository
+3. $ bundle install
+4. $ npm install
+5. $ bower install
 
-### Serve locally
+### Serve
 
-$ grunt serve
+$ grunt
 
 ### Deploy
 
